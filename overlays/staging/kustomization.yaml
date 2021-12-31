@@ -5,3 +5,6 @@ bases:
 - ../../base
 patchesStrategicMerge:
 - config-map.yaml
+replicas:
+- name: the-deployment
+  count: 2
